@@ -363,9 +363,3 @@
       for (var i = 0; i < tabButtons.length; i++) {
         tabButtons[i].classList.remove('active');
       }
-      
-      // 選択されたタブを表示
-      document.getElementById(tabId).classList.add('active');
-      
-      // クリックされたボタンに active クラスを追加
-      document.getElementById(tab
